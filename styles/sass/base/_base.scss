@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #fe9d66;
+  --secondary-color: #121328;
+  --tertiary-color: #23254b;
+
+  --text-primary: #fe9d66;
+  --text-secondary: #121328;
+  --text-tertiary: #23254b;
+  --text-white: #fff;
+  --text-black: #000;
+
+  --text-light: 300;
+  --text-bold: 500;
+  --text-bolder: 700;
+
+  --border-radius-md: 12px;
+  --border-radius-lg: 24px;
+  --border-radius-xl: 32px;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  background-color: lightgray;
+  position: relative;
+  min-height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
